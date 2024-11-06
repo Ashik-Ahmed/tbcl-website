@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
 
 const Navbar = () => {
@@ -13,33 +14,35 @@ const Navbar = () => {
     // Menu items with selective dropdowns
     const menuItems = [
         {
-            label: 'Home',
-            href: '/',
-        },
-        {
-            label: 'Products',
+            label: 'Our Path Forward',
             dropdown: [
-                { label: 'Featured Products', href: '/products/featured' },
-                { label: 'New Arrivals', href: '/products/new-arrivals' },
-                { label: 'Best Sellers', href: '/products/best-sellers' },
-                { label: 'Special Offers', href: '/products/special-offers' },
+                { label: 'About Us', href: '/about' },
+                { label: 'Executive Director Message', href: '/about/executive-director-message' },
+                { label: 'Ambition & Aspiration', href: '/about/ambition-and-aspiration' },
+                { label: 'Partners & Compliance', href: '/about/partners-and-compliance' },
             ]
         },
         {
-            label: 'About',
-            href: '/about',
+            label: 'Our Expertise',
+            href: '/expertise',
         },
         {
-            label: 'Solutions',
+            label: 'Exclusive Information',
             dropdown: [
-                { label: 'For Enterprise', href: '/solutions/for-enterprise' },
-                { label: 'For Startups', href: '/solutions/for-startups' },
-                { label: 'For Individuals', href: '/solutions/for-individuals' },
-                { label: 'Case Studies', href: '/solutions/case-studies' },
+                { label: 'Discharge Facility', href: '/exclusive-information/discharge-facility' },
+                { label: 'Storage Capacity', href: '/exclusive-information/storage-capacity' },
             ]
         },
         {
-            label: 'Contact',
+            label: 'Business Solutions',
+            dropdown: [
+                { label: 'Our Vessel', href: '/solutions/our-vessel' },
+                { label: 'Lubricant Industry', href: '/solutions/lubricant-industry' },
+                { label: 'Renewable & Green Energy', href: '/solutions/renewable-and-green-energy' },
+            ]
+        },
+        {
+            label: 'Connect With Us',
             href: '/contact',
         }
     ];
@@ -70,13 +73,17 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md">
+        <nav className="fixed w-full z-50 bg-white/50 backdrop-blur-sm shadow-md">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
-                    <div className="flex-shrink-0">
-                        <span className="text-2xl font-bold text-gray-900">Logo</span>
-                    </div>
+                    <Link href="/" className="flex-shrink-0">
+                        <img
+                            className="h-10 w-28"
+                            src="/logo.png"
+                            alt="Transbangla Commodities Limited Logo"
+                        />
+                    </Link>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8">
