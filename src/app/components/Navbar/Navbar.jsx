@@ -29,8 +29,8 @@ const Navbar = () => {
         {
             label: 'Discharge and Storage Capacity',
             dropdown: [
-                { label: 'Discharge Facility', href: '/exclusive-information/discharge-facility' },
-                { label: 'Storage Capacity', href: '/exclusive-information/storage-capacity' },
+                { label: 'Discharge Facility', href: '/discharge-and-storage-capacity/discharge-facility' },
+                { label: 'Storage Capacity', href: '/discharge-and-storage-capacity/storage-capacity' },
             ]
         },
         {

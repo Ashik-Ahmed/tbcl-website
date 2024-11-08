@@ -9,6 +9,7 @@ const ExecutiveMessage = () => {
                     <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                         Message From Executive Director
                     </h1>
+                    <div className="w-24 h-1 bg-white rounded-full mb-8"></div>
                 </div>
             </div>
 

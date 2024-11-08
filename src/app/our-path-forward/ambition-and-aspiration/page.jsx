@@ -28,6 +28,7 @@ const AmbitionAndAspiration = () => {
                     <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                         Our Ambition and Aspiration
                     </h1>
+                    <div className="w-24 h-1 bg-white rounded-full mb-8"></div>
                 </div>
             </div>
 
@@ -36,16 +37,16 @@ const AmbitionAndAspiration = () => {
                     {visionData.map((item, index) => (
                         <div
                             key={index}
-                            className="relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                            className="relative bg-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-300"
                         >
                             <div className=" p-8 text-center space-y-6">
                                 <div className="flex justify-center">
                                     {item.icon}
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900">{item.title}</h3>
-                                <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                                <p className="text-gray-700 leading-relaxed">{item.description}</p>
                             </div>
-                            <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-b-2xl"></div>
+                            <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-blue-600 to-purple-600"></div>
                         </div>
                     ))}
                 </div>
