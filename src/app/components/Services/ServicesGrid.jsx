@@ -6,37 +6,37 @@ const ServicesGrid = () => {
     const services = [
         {
             id: 1,
-            title: 'Industrial Solutions',
+            title: 'Facilitation & Business Advisory',
             image: '/service.avif',
             description: 'Advanced industrial automation and control systems'
         },
         {
             id: 2,
-            title: 'Construction',
+            title: 'Business Development ',
             image: '/service.avif',
             description: 'Modern construction and infrastructure development'
         },
         {
             id: 3,
-            title: 'Healthcare',
+            title: 'Fleet Management',
             image: '/service.avif',
             description: 'State-of-the-art medical facilities and services'
         },
         {
             id: 4,
-            title: 'Manufacturing',
+            title: 'Agent Management',
             image: '/service.avif',
             description: 'Precision manufacturing and quality control'
         },
         {
             id: 5,
-            title: 'Retail Solutions',
+            title: 'Shipping Services',
             image: '/service.avif',
             description: 'Advanced retail management systems'
         },
         {
             id: 6,
-            title: 'Technology',
+            title: 'Fender Service',
             image: '/service.avif',
             description: 'Cutting-edge technology solutions'
         }

@@ -16,10 +16,10 @@ const Navbar = () => {
         {
             label: 'Our Path Forward',
             dropdown: [
-                { label: 'About Us', href: '/about' },
-                { label: 'Executive Director Message', href: '/about/executive-director-message' },
-                { label: 'Ambition & Aspiration', href: '/about/ambition-and-aspiration' },
-                { label: 'Partners & Compliance', href: '/about/partners-and-compliance' },
+                { label: 'About Us', href: '/our-path-forward/about' },
+                { label: 'Executive Director Message', href: '/our-path-forward/executive-director-message' },
+                { label: 'Ambition & Aspiration', href: '/our-path-forward/ambition-and-aspiration' },
+                { label: 'Partners & Compliance', href: '/our-path-forward/partners-and-compliance' },
             ]
         },
         {
@@ -27,14 +27,14 @@ const Navbar = () => {
             href: '/expertise',
         },
         {
-            label: 'Exclusive Information',
+            label: 'Discharge and Storage Capacity',
             dropdown: [
                 { label: 'Discharge Facility', href: '/exclusive-information/discharge-facility' },
                 { label: 'Storage Capacity', href: '/exclusive-information/storage-capacity' },
             ]
         },
         {
-            label: 'Business Solutions',
+            label: 'Expansion & Future Strategies',
             dropdown: [
                 { label: 'Our Vessel', href: '/solutions/our-vessel' },
                 { label: 'Lubricant Industry', href: '/solutions/lubricant-industry' },
