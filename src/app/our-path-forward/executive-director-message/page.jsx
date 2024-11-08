@@ -17,7 +17,7 @@ const ExecutiveMessage = () => {
             <div className="relative bg-white">
                 <div className="absolute -top-32 left-0 right-0 h-32 "></div>
 
-                <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
+                <div className="max-w-5xl mx-auto px-4 py-16 md:py-24">
                     {/* Executive Info */}
                     <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
                         <div className="relative">
@@ -37,10 +37,10 @@ const ExecutiveMessage = () => {
 
                     {/* Quote Cards */}
                     <div className="grid mb-16">
-                        <div className="border rounded-2xl p-8 relative overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+                        <div className="bg-gray-200 border p-8 relative overflow-hidden group">
                             <div className="absolute top-0 left-0 w-2 h-full bg-blue-600 transform -skew-x-12"></div>
                             <div className="relative">
-                                <div className="text-5xl text-blue-200 mb-4">"</div>
+                                <div className="text-5xl text-blue-500 mb-4">"</div>
                                 <p className="text-gray-600 leading-relaxed italic">
                                     We believe that success in today’s interconnected world requires resilience, adaptability, and a commitment to quality. So, we work with every expertise we have to drive mutual growth for us and our partners, empowering them and enhancing the efficiency of trade across borders. We are dedicated to supporting sustainable development that positively impacts the industries we serve.
                                 </p>
