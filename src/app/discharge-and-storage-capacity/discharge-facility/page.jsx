@@ -217,17 +217,35 @@ const DischargeFacility = () => {
                                 <thead>
                                     <tr>
                                         {months.map((month) => (
-                                            <th key={month} className="border border-gray-400" colSpan={3}>
-                                                <div className="text-center font-bold p-2 border-b border-gray-400">{month}</div>
-                                                <div className="grid grid-cols-3">
-                                                    <div className="border-x border-gray-400 p-1">Date</div>
-                                                    <div className="border-x border-gray-400 p-1">Inward</div>
-                                                    <div className="border-x border-gray-400 p-1">Outward</div>
-                                                </div>
+                                            <th key={month} className="border border-gray-400 text-center" colSpan={3}>
+                                                {month}
                                             </th>
                                         ))}
                                     </tr>
+                                    <tr>
+                                        {months.map((month, index) => (
+                                            <th key={`${month}-meter-${index}`} className="border border-gray-400 text-center" colSpan={3}>
+                                                Meter
+                                            </th>
+                                        ))}
+                                    </tr>
+                                    <tr>
+                                        {months.map((month, index) => (
+                                            <>
+                                                <th key={`${month}-date-${index}`} className="border border-gray-400 p-1 text-center">
+                                                    Date
+                                                </th>
+                                                <th key={`${month}-inward-${index}`} className="border border-gray-400 p-1 text-center">
+                                                    Inward
+                                                </th>
+                                                <th key={`${month}-outward-${index}`} className="border border-gray-400 p-1 text-center">
+                                                    Outward
+                                                </th>
+                                            </>
+                                        ))}
+                                    </tr>
                                 </thead>
+
                                 <tbody>
                                     {days.map((day, index) => (
                                         <tr key={index}>

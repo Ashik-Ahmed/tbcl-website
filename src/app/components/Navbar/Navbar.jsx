@@ -86,7 +86,7 @@ const Navbar = () => {
                     </Link>
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden md:flex items-center space-x-2">
                         {menuItems.map((item, index) => (
                             <div
                                 key={index}
