@@ -36,9 +36,9 @@ const Navbar = () => {
         {
             label: 'Expansion & Future Strategies',
             dropdown: [
-                { label: 'Our Vessel', href: '/solutions/our-vessel' },
-                { label: 'Lubricant Industry', href: '/solutions/lubricant-industry' },
-                { label: 'Renewable & Green Energy', href: '/solutions/renewable-and-green-energy' },
+                { label: 'Our Vessel', href: '/expansion-and-future-strategies/our-vessel' },
+                { label: 'Lubricant Industry', href: '/expansion-and-future-strategies/lubricant-industry' },
+                { label: 'Renewable & Green Energy', href: '/expansion-and-future-strategies/renewable-and-green-energy' },
             ]
         },
         {
