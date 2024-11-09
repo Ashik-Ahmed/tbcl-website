@@ -14,8 +14,8 @@ const RenewableEnergy = () => {
                 </div>
             </section>
 
-            <div className='max-w-5xl mx-auto py-16 md:flex md:gap-x-16 md:items-center'>
-                <div className="w-1/2 px-4">
+            <div className='container max-w-5xl mx-auto py-16 md:flex md:gap-x-16 md:items-center'>
+                <div className="md:w-1/2 px-4">
                     <div className='mb-8'>
                         <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                             Our Blueprint in Renewable and Green Energy
@@ -27,7 +27,7 @@ const RenewableEnergy = () => {
                     </p>
                 </div>
                 {/* Image Section */}
-                <div className="w-1/2 relative">
+                <div className="md:w-1/2 relative">
                     <div className="aspect-w-20 aspect-h-9"> {/* 2000:897 ratio simplified */}
                         <Image
                             src="/green-energy.png"

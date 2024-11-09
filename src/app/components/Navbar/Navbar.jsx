@@ -100,12 +100,12 @@ const Navbar = () => {
                                         <ChevronDown className="ml-1 h-4 w-4" />
                                     </button>
                                 ) : (
-                                    <a
+                                    <Link
                                         href={item.href}
                                         className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
                                     >
                                         {item.label}
-                                    </a>
+                                    </Link>
                                 )}
 
                                 {item.dropdown && activeDropdown === index && (
@@ -117,13 +117,13 @@ const Navbar = () => {
                                     >
                                         <div className="py-1">
                                             {item.dropdown.map((subItem, subIndex) => (
-                                                <a
+                                                <Link
                                                     key={subIndex}
                                                     href={subItem.href}
                                                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                                 >
                                                     {subItem?.label}
-                                                </a>
+                                                </Link>
                                             ))}
                                         </div>
                                     </div>
@@ -182,24 +182,24 @@ const Navbar = () => {
                                             {activeMobileDropdown === index && (
                                                 <div className="pl-4 bg-white space-y-1">
                                                     {item.dropdown.map((subItem, subIndex) => (
-                                                        <a
+                                                        <Link
                                                             key={subIndex}
                                                             href={subItem?.href}
                                                             className="block px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
                                                         >
                                                             {subItem?.label}
-                                                        </a>
+                                                        </Link>
                                                     ))}
                                                 </div>
                                             )}
                                         </>
                                     ) : (
-                                        <a
+                                        <Link
                                             href={item?.href}
                                             className="block px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md"
                                         >
                                             {item?.label}
-                                        </a>
+                                        </Link>
                                     )}
                                 </div>
                             ))}

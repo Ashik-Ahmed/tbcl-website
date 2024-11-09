@@ -37,7 +37,7 @@ const DischargeFacility = () => {
                     </h1>
                     <div className="w-24 h-1 bg-white rounded-full mb-8"></div>
                     <div className='max-w-5xl'>
-                        <p className='text-white'>We have jotted down essential publicly available information to give you a clear perspective on Bangladesh’s dynamic market. By analyzing best practices, existing infrastructure, and capacity benchmarks, we highlight the efficiency and potential of these facilities, identifying opportunities for innovation and growth. </p>
+                        <p className='text-white'>We have jotted down essential publicly available information to give you a clear perspective on Bangladesh&apos;s discharge facilitys dynamic market. By analyzing best practices, existing infrastructure, and capacity benchmarks, we highlight the efficiency and potential of these facilities, identifying opportunities for innovation and growth. </p>
                     </div>
                 </div>
             </section>
@@ -69,7 +69,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2" rowSpan={3}>TSP</td>
                                         <td className="border border-gray-300 p-2">143.40 M</td>
                                         <td className="border border-gray-300 p-2">8.25 M</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={3}>2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2" rowSpan={3}>2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2" rowSpan={3}></td>
                                         <td className="border border-gray-300 p-2" rowSpan={3}>Discharge can be done on a special permission basis</td>
                                     </tr>
@@ -90,7 +90,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2" >DOJ – 3</td>
                                         <td className="border border-gray-300 p-2">183.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2" >2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2" >2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2"></td>
                                     </tr>
@@ -99,7 +99,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2 text-center" rowSpan={2}>DOJ – 4</td>
                                         <td className="border border-gray-300 p-2">160.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}>2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2" rowSpan={2}>2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2" rowSpan={2}></td>
                                         <td className="border border-gray-300 p-2" rowSpan={2}></td>
                                     </tr>
@@ -116,7 +116,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">DOJ – 5</td>
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
                                     </tr>
@@ -125,7 +125,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">DOJ – 6</td>
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
                                     </tr>
@@ -134,7 +134,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">DOJ – 7</td>
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
                                     </tr>
@@ -152,7 +152,7 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">United Jetty</td>
                                         <td className="border border-gray-300 p-2">183.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">4<sub>x</sub>8"</td>
+                                        <td className="border border-gray-300 p-2">4<sub>x</sub>8&quot;</td>
                                         <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2"></td>
                                     </tr>
@@ -201,7 +201,7 @@ const DischargeFacility = () => {
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>C. The Single Point Mooring (SPM) with Double Pipeline project in Bangladesh</h3>
                         <p className='mt-4'>
-                            This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh's energy infrastructure.
+                            This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh&#39s energy infrastructure.
                         </p>
                         <p className='mt-2'>
                             With the installation of the SPM, BPC can now offload 120,000 tons of crude oil in 48 hours and 70,000 tons of diesel in 28 hours, boosting annual offloading capacity to around 9 million tons. The SPM supports discharge operations for Eastern Refinery Ltd. and BPC, with MT JAG APARNA being the first vessel to discharge 60,000 MT of gas oil to BPC via the SPM in 2023.
@@ -210,7 +210,7 @@ const DischargeFacility = () => {
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>D. Draught Chart at Chittagong Port</h3>
                         <p className='mt-4'>
-                            The drought is the measurement from a ship's lowest point to the seabed, crucial for navigation. In Bangladesh, river droughts often shift due to environmental changes, affecting water depth. To manage this, a forecasted draught chart is created every six months, helping vessels navigate safely and efficiently. You can see the reflection of it in this figure of the draught chart for July to December 2024:
+                            The drought is the measurement from a ship&#39s lowest point to the seabed, crucial for navigation. In Bangladesh, river droughts often shift due to environmental changes, affecting water depth. To manage this, a forecasted draught chart is created every six months, helping vessels navigate safely and efficiently. You can see the reflection of it in this figure of the draught chart for July to December 2024:
                         </p>
                         <div className="mt-4">
                             <table className=" border-collapse border-2 border-gray-400">
