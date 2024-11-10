@@ -4,6 +4,12 @@ import React from 'react';
 
 const LubricantIndustry = () => {
 
+    const lubImages = [
+        { src: '/lubricant/vivo.png', alt: 'Jetty image 1' },
+        { src: '/lubricant/hyrax.png', alt: 'Jetty image 2' },
+        { src: '/lubricant/mabanol.png', alt: 'Jetty image 3' },
+    ]
+
     const partnerships = [
         { brand: "Vivo", year: "2019", country: "Singapore" },
         { brand: "Hyrax", year: "2021", country: "Malaysia" },
@@ -49,7 +55,7 @@ const LubricantIndustry = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6 mt-6">
+                {/* <div className="grid md:grid-cols-3 gap-6 mt-6">
                     <div className="bg-white transition-shadow">
                         <div className="relative h-64">
                             <Image
@@ -80,8 +86,29 @@ const LubricantIndustry = () => {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <div className="container mx-auto px-4 py-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
+                        {lubImages.map((image, index) => (
+                            <div key={index} className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
+                                <Image
+                                    src={image.src}
+                                    alt={image.alt}
+                                    width={500}
+                                    height={500}
+                                    className="w-full h-64 object-contain bg-gray-200 transition-transform duration-300 hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 hover:opacity-100">
+                                    {/* <div className="absolute bottom-4 left-4 text-white">
+                                                <p className="text-lg font-semibold">{`Photo ${index + 1}`}</p>
+                                                <p className="text-sm">Click to expand</p>
+                                            </div> */}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
                 {/* Partnership Details */}
                 <div className="mt-16 overflow-hidden">
                     <div className='mb-8'>
