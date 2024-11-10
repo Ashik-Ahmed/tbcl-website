@@ -1,6 +1,13 @@
+import Image from 'next/image';
 import React from 'react';
 
 const DischargeFacility = () => {
+
+    const images = [
+        { src: '/jetty/jetty-1.jpeg', alt: 'Jetty image 1' },
+        { src: '/jetty/jetty-2.jpeg', alt: 'Jetty image 2' },
+        { src: '/jetty/jetty-3.jpeg', alt: 'Jetty image 3' },
+    ]
 
     const months = [
         "July, 2024",
@@ -50,6 +57,28 @@ const DischargeFacility = () => {
 
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>A. Jetties in Chittagong</h3>
+                        <p className='text-gray-700 mt-4'>The following Jetties in Chittagong are designated for the discharge of several fuel and oil products:</p>
+                        <div className="container mx-auto px-4 py-8">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                {images.map((image, index) => (
+                                    <div key={index} className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
+                                        <Image
+                                            src={image.src}
+                                            alt={image.alt}
+                                            width={500}
+                                            height={500}
+                                            className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 hover:opacity-100">
+                                            {/* <div className="absolute bottom-4 left-4 text-white">
+                                                <p className="text-lg font-semibold">{`Photo ${index + 1}`}</p>
+                                                <p className="text-sm">Click to expand</p>
+                                            </div> */}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                         <div className="w-full overflow-x-auto mt-4">
                             <table className="w-full border-collapse border border-gray-300">
                                 <thead>
@@ -201,7 +230,7 @@ const DischargeFacility = () => {
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>C. The Single Point Mooring (SPM) with Double Pipeline project in Bangladesh</h3>
                         <p className='mt-4'>
-                            This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh&#39s energy infrastructure.
+                            This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh&apos;s energy infrastructure.
                         </p>
                         <p className='mt-2'>
                             With the installation of the SPM, BPC can now offload 120,000 tons of crude oil in 48 hours and 70,000 tons of diesel in 28 hours, boosting annual offloading capacity to around 9 million tons. The SPM supports discharge operations for Eastern Refinery Ltd. and BPC, with MT JAG APARNA being the first vessel to discharge 60,000 MT of gas oil to BPC via the SPM in 2023.
@@ -210,10 +239,10 @@ const DischargeFacility = () => {
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>D. Draught Chart at Chittagong Port</h3>
                         <p className='mt-4'>
-                            The drought is the measurement from a ship&#39s lowest point to the seabed, crucial for navigation. In Bangladesh, river droughts often shift due to environmental changes, affecting water depth. To manage this, a forecasted draught chart is created every six months, helping vessels navigate safely and efficiently. You can see the reflection of it in this figure of the draught chart for July to December 2024:
+                            The drought is the measurement from a ship&apos;s lowest point to the seabed, crucial for navigation. In Bangladesh, river droughts often shift due to environmental changes, affecting water depth. To manage this, a forecasted draught chart is created every six months, helping vessels navigate safely and efficiently. You can see the reflection of it in this figure of the draught chart for July to December 2024:
                         </p>
-                        <div className="mt-4">
-                            <table className=" border-collapse border-2 border-gray-400">
+                        <div className="mt-4 overflow-x-auto">
+                            <table className="border-collapse border-2 border-gray-400 min-w-full">
                                 <thead>
                                     <tr>
                                         {months.map((month) => (
@@ -245,16 +274,15 @@ const DischargeFacility = () => {
                                         ))}
                                     </tr>
                                 </thead>
-
                                 <tbody>
                                     {days.map((day, index) => (
                                         <tr key={index}>
-                                            {months.map((month) => (
-                                                <React.Fragment key={`${month}-${day.date}`}>
-                                                    <td className="border border-gray-400 p-1 text-center">{day.date}</td>
-                                                    <td className="border border-gray-400 p-1 text-center">{day.inward}</td>
-                                                    <td className="border border-gray-400 p-1 text-center">{day.outward}</td>
-                                                </React.Fragment>
+                                            {months.map((month, monthIndex) => (
+                                                <>
+                                                    <td key={`${month}-date-${index}`} className="border border-gray-300 p-2 text-center">{day.date}</td>
+                                                    <td key={`${month}-inward-${index}`} className="border border-gray-300 p-2 text-center">{day.inward}</td>
+                                                    <td key={`${month}-outward-${index}`} className="border border-gray-300 p-2 text-center">{day.outward}</td>
+                                                </>
                                             ))}
                                         </tr>
                                     ))}

@@ -40,9 +40,9 @@ const ExecutiveMessage = () => {
                         <div className="bg-gray-200 border p-8 relative overflow-hidden group">
                             <div className="absolute top-0 left-0 w-2 h-full bg-blue-600 transform -skew-x-12"></div>
                             <div className="relative">
-                                <div className="text-5xl text-blue-500 mb-4">"</div>
+                                <div className="text-5xl text-blue-500 mb-4">&quot;</div>
                                 <p className="text-gray-600 leading-relaxed italic">
-                                    We believe that success in today’s interconnected world requires resilience, adaptability, and a commitment to quality. So, we work with every expertise we have to drive mutual growth for us and our partners, empowering them and enhancing the efficiency of trade across borders. We are dedicated to supporting sustainable development that positively impacts the industries we serve.
+                                    We believe that success in today&apos;s interconnected world requires resilience, adaptability, and a commitment to quality. So, we work with every expertise we have to drive mutual growth for us and our partners, empowering them and enhancing the efficiency of trade across borders. We are dedicated to supporting sustainable development that positively impacts the industries we serve.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed italic mt-4">
                                     Together, we envision a future where our collaborative efforts fuel growth and set new standards for sustainable impact across industries and regions. By fostering a culture of innovation and reliability, we are dedicated to building partnerships that strengthen global trade, support resilient communities, and create positive, far-reaching changes for future generations.

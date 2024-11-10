@@ -27,7 +27,7 @@ const PartnersAndCompliance = () => {
                 </div> */}
                 <div className="">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                        At Transbangla Commodities, we are committed to fully complying with the regulations set forth by Bangladesh Bank, the country's central regulatory authority for banking and financial operations. By aligning with Bangladesh Bank's guidelines, we ensure transparency, accountability, and ethical standards across all our financial transactions and business practices.
+                        At Transbangla Commodities, we are committed to fully complying with the regulations set forth by Bangladesh Bank, the country&apos;s central regulatory authority for banking and financial operations. By aligning with Bangladesh Bank&apos;s guidelines, we ensure transparency, accountability, and ethical standards across all our financial transactions and business practices.
                     </p>
                     <p className="text-gray-700 mb-4 leading-relaxed">
                         We uphold a strict code of conduct that all employees must follow. Working with globally recognized suppliers, manufacturers, and traders, Transbangla Commodities  rigorously adhered to compliance standards, including:
