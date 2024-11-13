@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const ServicesGrid = () => {
@@ -8,36 +9,42 @@ const ServicesGrid = () => {
             id: 1,
             title: 'Facilitation & Business Advisory',
             image: '/service.avif',
+            link: '/expertise#facilitation-and-business-advisory',
             description: 'Advanced industrial automation and control systems'
         },
         {
             id: 2,
             title: 'Business Development ',
             image: '/service.avif',
+            link: '/expertise#business-development',
             description: 'Modern construction and infrastructure development'
         },
         {
             id: 3,
             title: 'Fleet Management',
             image: '/service.avif',
+            link: '/expertise#fleet-management',
             description: 'State-of-the-art medical facilities and services'
         },
         {
             id: 4,
             title: 'Agent Management',
             image: '/service.avif',
+            link: '/expertise#agent-management',
             description: 'Precision manufacturing and quality control'
         },
         {
             id: 5,
             title: 'Shipping Services',
             image: '/service.avif',
+            link: '/expertise#shipping-services',
             description: 'Advanced retail management systems'
         },
         {
             id: 6,
             title: 'Fender Service',
             image: '/service.avif',
+            link: '/expertise#fender-service',
             description: 'Cutting-edge technology solutions'
         }
     ];
@@ -79,10 +86,10 @@ const ServicesGrid = () => {
                             {/* Learn More Button */}
                             <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 
                     transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                                <button className="bg-white/90 hover:bg-white text-black px-4 py-2 rounded-md 
+                                <Link href={service.link} className="bg-white/90 hover:bg-white text-black px-4 py-2 rounded-md 
                             text-sm font-medium shadow-lg">
                                     Learn More →
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     ))}

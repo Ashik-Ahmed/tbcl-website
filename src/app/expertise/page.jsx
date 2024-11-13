@@ -16,7 +16,7 @@ const Expertise = () => {
                     </div>
                 </div>
             </section>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            <section id="facilitation-and-business-advisory" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Facilitation & Business Advisory
@@ -29,8 +29,8 @@ const Expertise = () => {
                         Being the bridge between overseas suppliers and regional industries, we facilitate businesses with precision and insights. Our expertise in trade and shipping empowers our clients to navigate into the markets seamlessly, while our advisory solutions are tailored to support strategic decision-making and sustainable growth. Providing end-to-end guidance in versatile sectors, especially in energy commodities— oil, gas, and renewable energy; we excel in risk management, trading essential goods and understanding market anatomy.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="business-development" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Business Development
@@ -104,8 +104,8 @@ const Expertise = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="condensate-and-naphtha-export" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Condensate & Naphtha Export
@@ -117,8 +117,8 @@ const Expertise = () => {
                         In the past, we actively managed and ensured the export of high-quality condensate and naphtha, leveraging our extensive oil and gas trading expertise. We successfully assisted with exports to Projector Asia Pte Ltd., Singapore (2006–2008) and Oilive Asia Pte Ltd., Singapore (2008–2016). With the right opportunity, we&apos;re prepared to bring our proven capabilities back into action and support future export endeavors.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="fleet-management" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Fleet Management
@@ -130,8 +130,8 @@ const Expertise = () => {
                         Our fleet management service ensures vessels&apos; secure and efficient movement across multiple routes, from data management to meticulous route planning. Prioritizing safety, punctuality, and streamlined logistics, we perfectly oversee every detail. By monitoring and analyzing comprehensive data, we empower our regional and global partners, fostering seamless connectivity and reliable growth when trading through ships.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="agent-management" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Agent Management
@@ -143,8 +143,8 @@ const Expertise = () => {
                         We monitor and advise on shipping operations by closely coordinating with trusted local agents across ports. Our partner agents handle essential tasks on our behalf in compliance with local regulations. Throughout the decades, we have upheld high service standards through our partner agents, streamlining logistics and maintaining smooth, efficient operations for our clients—ensuring that shipments move without any obstacles from one place to another.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="shipping-services" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Shipping Services
@@ -156,8 +156,8 @@ const Expertise = () => {
                         With one of our sister concerns, we provide end-to-end shipping support for customs handling and documentation. Specializing in shipping management, we guarantee safe cargo transfer offshore, backed by fender services to maintain stability and prevent vessel damage. With our expertise in this sector, we oversee the entire discharge operation to mitigate shortage and pilferage.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="fender-service" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Fender Service
@@ -169,8 +169,8 @@ const Expertise = () => {
                         With this service, we offer high-quality vessel protection to ensure safe docking and transfer operations. We provide specialized fenders that reduce the risk of damage during critical offshore and port activities. We have become proficient in fendering for smooth, secure handling of vessels in complex settings, prioritizing safety and operational efficiency. Our time is dedicated to delivering reliable, expertly managed fender solutions that international entities can depend on.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="lightering-operation" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Lightering Operation
@@ -182,8 +182,8 @@ const Expertise = () => {
                         At Transbangla, we expertly facilitate Lightering Operations for safe and efficient offshore cargo transfers from larger vessels to smaller ones. Our team ensures that each transfer minimizes draught challenges, allowing larger ships to reach ports with drought restrictions.
                     </p>
                 </div>
-            </div>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            </section>
+            <section id="cargo-discharge" className="max-w-5xl mx-auto py-8 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Process Optimization in Cargo Discharge Operation
@@ -195,7 +195,7 @@ const Expertise = () => {
                         Our specialization also falls under Cargo Discharge Operations, in which we work to efficiently transfer goods from large tankers anchored offshore to onshore storage. Our approach enables government entities such as BPC to discharge larger volumes quickly, cutting typical offloading times and increasing annual discharge capacity. With this optimized process, we support safe, cost-effective cargo discharge solutions.
                     </p>
                 </div>
-            </div>
+            </section>
         </div>
     );
 };
