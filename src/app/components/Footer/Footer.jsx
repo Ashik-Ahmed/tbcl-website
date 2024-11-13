@@ -7,23 +7,24 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="mb-8 md:mb-0">
-                        <h2 className="text-2xl font-bold mb-4">Company Name</h2>
-                        <p className="text-gray-400">We are dedicated to providing the best service to our customers.</p>
+                        <h2 className="text-2xl font-bold mb-4">Transbangla Commodities Limited</h2>
+                        <p className="text-gray-400">We Are Leading with Trust – With a Legacy of Dependability at Home and Overseas</p>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
                             <li><Link href="/" className="hover:text-gray-300 transition-colors">Home</Link></li>
-                            <li><Link href="/about" className="hover:text-gray-300 transition-colors">About</Link></li>
-                            <li><Link href="/services" className="hover:text-gray-300 transition-colors">Services</Link></li>
+                            <li><Link href="/our-path-forward/about" className="hover:text-gray-300 transition-colors">About</Link></li>
+                            <li><Link href="/expertise" className="hover:text-gray-300 transition-colors">Our Expertise</Link></li>
                             <li><Link href="/contact" className="hover:text-gray-300 transition-colors">Contact</Link></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-                        <p className="text-gray-400">123 Main St, City, Country</p>
-                        <p className="text-gray-400">Phone: (123) 456-7890</p>
-                        <p className="text-gray-400">Email: info@company.com</p>
+                        <p className="text-gray-400">BTMC Bhaban (7th Floor)</p>
+                        <p className="text-gray-400">7-9 Kawran Bazar, Dhaka-1207</p>
+                        <p className="text-gray-400">Phone: +880-2-8189244, +880-2-8189321, +880-2-58155623</p>
+                        <p className="text-gray-400">Email: info@tbcl.com.bd</p>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
@@ -48,7 +49,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                    <p>&copy; {new Date().getFullYear()} Company Name. All rights reserved.</p>
+                    <p className='text-xs'>&copy; {new Date().getFullYear()} Company Name. All rights reserved.</p>
                 </div>
             </div>
         </footer>

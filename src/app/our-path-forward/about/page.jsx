@@ -42,7 +42,7 @@ const AboutPage = () => {
                     <div className="relative">
                         <div className="aspect-square rounded-2xl overflow-hidden">
                             <img
-                                src="/service.avif"
+                                src="/about.png"
                                 alt="Our Team"
                                 className="w-full h-full object-cover"
                             />

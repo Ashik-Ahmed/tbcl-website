@@ -23,7 +23,7 @@ export default function EnhancedContactUs() {
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen py-16">
             <div className=''>
                 {/* Hero Section */}
                 <section className="relative h-[60vh] flex justify-center items-center bg-gradient-to-r from-blue-500 to-purple-700">
@@ -50,21 +50,21 @@ export default function EnhancedContactUs() {
                                         <MapPin className="h-8 w-8 text-blue-600 mr-4" aria-hidden="true" />
                                         <div>
                                             <dt className="font-medium text-gray-900">Address</dt>
-                                            <dd className="mt-1 text-gray-500">123 Innovation Street, Tech City, TC 12345</dd>
+                                            <dd className="mt-1 text-gray-500">BTMC Bhaban (7th Floor), 7-9 Kawran Bazar, Dhaka-1207</dd>
                                         </div>
                                     </div>
                                     <div className="flex items-start">
                                         <Phone className="h-8 w-8 text-blue-600 mr-4" aria-hidden="true" />
                                         <div>
                                             <dt className="font-medium text-gray-900">Phone</dt>
-                                            <dd className="mt-1 text-gray-500">+1 (555) 123-4567</dd>
+                                            <dd className="mt-1 text-gray-500">+880-2-8189244, +880-2-8189321, +880-2-58155623</dd>
                                         </div>
                                     </div>
                                     <div className="flex items-start">
                                         <Mail className="h-8 w-8 text-blue-600 mr-4" aria-hidden="true" />
                                         <div>
                                             <dt className="font-medium text-gray-900">Email</dt>
-                                            <dd className="mt-1 text-gray-500">contact@example.com</dd>
+                                            <dd className="mt-1 text-gray-500">info@tbcl.com.bd</dd>
                                         </div>
                                     </div>
                                     <div className="flex items-start">
@@ -72,9 +72,8 @@ export default function EnhancedContactUs() {
                                         <div>
                                             <dt className="font-medium text-gray-900">Hours</dt>
                                             <dd className="mt-1 text-gray-500">
-                                                Monday-Friday: 9AM - 5PM<br />
-                                                Saturday: 10AM - 2PM<br />
-                                                Sunday: Closed
+                                                Sunday-Thursday: 9AM - 5PM<br />
+                                                Friday-Saturday: Closed
                                             </dd>
                                         </div>
                                     </div>
