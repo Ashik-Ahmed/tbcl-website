@@ -1,5 +1,6 @@
-import Image from 'next/image';
+
 import React from 'react';
+import Image from 'next/image';
 
 const Expertise = () => {
     return (
@@ -48,20 +49,25 @@ const Expertise = () => {
                         <p className='mt-4'>
                             The primary day-to-day concentration of Transbangla Commodities is to navigate Bangladesh&apos;s fast-growing energy market, meeting around 85% of the country&apos;s demand for petroleum finished products through our affiliated international suppliers. With national demand for fuels, notably Gasoil, Jet Fuel, HSFO, and Mogas, which are consistently rising, we leverage the infrastructure and expertise to ensure flawless distribution and availability across Bangladesh.
                         </p>
-                        <Image src="/service.avif" alt="Petroleum Finished Products"
-                            width={500}
-                            height={500}
-                            className='mt-4' />
-                        <p className='italic mt-2 text-sm'>Figure: Demand Trend of Finished Petroleum Products [Qty. in Metric Ton]</p>
+                        <div className="w-full mx-auto py-8">
+                            <Image src="/expertise/expertise-1.png" alt="Petroleum Finished Products"
+                                width={500}
+                                height={500}
+                                className='mt-4 mx-auto' />
+                            {/* <YearlyDemandChart /> */}
+                            <p className='italic mt-2 text-sm text-center'>Figure: Demand Trend of Finished Petroleum Products [Qty. in Metric Ton]</p>
+                        </div>
                         <p className='mt-4'>
                             Since 2008, we have led the way in importing and distributing finished petroleum products from international suppliers (shown by our consistent supply trend across Gasoil, Jet A-1, HSFO, and more). This robust track record highlights our ability to adapt and thrive in a dynamic market, providing stability and coherence to international entities. Collaborate with us to be part of Bangladesh&apos;s expanding energy landscape, where we bring regional expertise, logistical precision, and an unwavering commitment to operational excellence.
                         </p>
-
-                        <Image src="/service.avif" alt="Petroleum Finished Products"
-                            width={500}
-                            height={500}
-                            className='mt-4' />
-                        <p className='italic mt-2 text-sm'>Fig: Supply Trends by Product Through Transbangla Commodities Ltd. [Qty. in Metric Ton]</p>
+                        <div className="w-full mx-auto py-8">
+                            <Image src="/expertise/expertise-2.png" alt="Petroleum Finished Products"
+                                width={500}
+                                height={500}
+                                className='mt-4 mx-auto' />
+                            {/* <YearlyDemandChart /> */}
+                            <p className='italic mt-2 text-sm text-center'>Fig: Supply Trends by Product Through Transbangla Commodities Ltd. [Qty. in Metric Ton]</p>
+                        </div>
                     </div>
                     <div className='ml-4 mt-4'>
                         <h3 className='text-2xl font-bold'>B. Contribution to Power Generation </h3>
@@ -76,12 +82,14 @@ const Expertise = () => {
                         <p className="mt-2">
                             Since private companies own most of these plants, the import volume for privately managed facilities significantly surpasses that of state-owned plants. Transbangla Commodities and its sister concern work closely with private power providers in partnership with reputable international suppliers, supplying high-quality fuel oil and offering industry insights to support operational efficiency and business growth across Bangladesh&apos;s energy sector.
                         </p>
-                        <Image src="/service.avif" alt="Petroleum Finished Products"
-                            width={500}
-                            height={500}
-                            className='mt-4' />
-                        <p className='italic mt-2 text-sm'>Figure: Fuel Oil Import Trend [Qty. in Metric Ton]</p>
-
+                        <div className="w-full mx-auto py-8">
+                            <Image src="/expertise/expertise-2.png" alt="Petroleum Finished Products"
+                                width={500}
+                                height={500}
+                                className='mt-4 mx-auto' />
+                            {/* <YearlyDemandChart /> */}
+                            <p className='italic mt-2 text-sm text-center'>Figure: Fuel Oil Import Trend [Qty. in Metric Ton]</p>
+                        </div>
                         <h4 className='mt-4 text-xl font-semibold'>ii) Coal Import and Our Strategic Way Forward</h4>
                         <p className='mt-2'>
                             Coal is a vital resource in Bangladesh&apos;s energy sector, powering a significant portion of the nation&apos;s electricity generation. With a total capacity of 27,476 MW, coal contributes 7,000 MW—about 19% of the overall supply. The demand for coal is growing steadily, reflected in its rising contribution to power generation, from 7.88% in 2022 to 22.33% in 2024.
