@@ -47,10 +47,10 @@ const ProductWiseSupplyChart = () => {
                     <Legend />
                     <Line type="monotone" dataKey="Gasoil" stroke="#4BC0C0" />
                     <Line type="monotone" dataKey="Jet A-1" stroke="#36A2EB" />
-                    <Line type="monotone" dataKey="SKO" stroke="#FFCE56" />
+                    <Line type="monotone" dataKey="HSFO" stroke="#FFCE56" />
                     <Line type="monotone" dataKey="Mogas" stroke="#9966FF" />
-                    <Line type="monotone" dataKey="HSFO" stroke="#FF6384" />
-                    <Line type="monotone" dataKey="Marine Fuel" stroke="#8A2BE2" />
+                    <Line type="monotone" dataKey="M. Fuel" stroke="#FF6384" />
+                    <Line type="monotone" dataKey="SKO" stroke="#8A2BE2" />
                 </LineChart>
             </ResponsiveContainer>
         </div>
