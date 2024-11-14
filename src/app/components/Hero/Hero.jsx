@@ -7,7 +7,7 @@ const Hero = () => {
             {/* Background Image Container */}
             <div className="absolute inset-0">
                 <img
-                    src="/hero-background.jpg"
+                    src="/hero-image.png"
                     alt="Hero background"
                     className="w-full h-full object-cover"
                 />
@@ -18,14 +18,14 @@ const Hero = () => {
             {/* Content Container */}
             <div className="relative h-full flex flex-col  justify-center px-4 sm:px-6 lg:px-8">
                 {/* Tagline */}
-                <h1 className="text-4xl md:text-6xl text-white font-bold mb-8"
+                <h1 className="text-4xl md:text-7xl text-white font-bold mb-8"
                     style={{ textShadow: "2px 2px 2px rgba(0, 0, 0, 0.9), 1px 1px 0 rgba(0, 0, 0, 0.8)" }}>
                     Global Routes to Future Roots
                 </h1>
 
                 {/* Subtitle */}
                 <p className="text-xl md:text-2xl text-white mb-8 py-4">
-                    We Are Leading with Trust – With a Legacy of Dependability at Home and Overseas
+                    We Are Leading with Trust - With a Legacy of Dependability at Home and Overseas
                 </p>
                 {/* <p
                     className="text-4xl md:text-6xl text-white font-bold mb-8"

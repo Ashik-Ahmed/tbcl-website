@@ -30,7 +30,7 @@ const ExecutiveMessage = () => {
                             </div>
                         </div>
                         <div>
-                            <h2 className="text-3xl font-bold text-gray-900">John Anderson</h2>
+                            <h2 className="text-3xl font-bold text-gray-900">R.M. Jahangir</h2>
                             <p className="text-blue-600 font-medium">Executive Director</p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const ExecutiveMessage = () => {
                                 />
                             </div>
                             <div className="text-right">
-                                <div className="font-bold text-gray-900">John Anderson</div>
+                                <div className="font-bold text-gray-900">R.M. Jahangir</div>
                                 <div className="text-sm text-gray-600">Executive Director</div>
                                 <div className="text-sm text-blue-600">Tarnsbangla Commodities Ltd.</div>
                             </div>

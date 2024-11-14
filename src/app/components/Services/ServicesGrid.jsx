@@ -8,42 +8,42 @@ const ServicesGrid = () => {
         {
             id: 1,
             title: 'Facilitation & Business Advisory',
-            image: '/service.avif',
+            image: '/expertise/facilitaion.png',
             link: '/expertise#facilitation-and-business-advisory',
             description: 'Advanced industrial automation and control systems'
         },
         {
             id: 2,
             title: 'Business Development ',
-            image: '/service.avif',
+            image: '/expertise/business-development.png',
             link: '/expertise#business-development',
             description: 'Modern construction and infrastructure development'
         },
         {
             id: 3,
             title: 'Fleet Management',
-            image: '/service.avif',
+            image: '/expertise/fleet-management.png',
             link: '/expertise#fleet-management',
             description: 'State-of-the-art medical facilities and services'
         },
         {
             id: 4,
             title: 'Agent Management',
-            image: '/service.avif',
+            image: '/expertise/agent-management.jpg',
             link: '/expertise#agent-management',
             description: 'Precision manufacturing and quality control'
         },
         {
             id: 5,
             title: 'Shipping Services',
-            image: '/service.avif',
+            image: '/expertise/shipping-service.jpg',
             link: '/expertise#shipping-services',
             description: 'Advanced retail management systems'
         },
         {
             id: 6,
             title: 'Fender Service',
-            image: '/service.avif',
+            image: '/expertise/fender-service.jpg',
             link: '/expertise#fender-service',
             description: 'Cutting-edge technology solutions'
         }
@@ -66,10 +66,10 @@ const ServicesGrid = () => {
                                     alt={service.title}
                                     width={400}
                                     height={300}
-                                    className="w-full h-full object-cover transition-all duration-500 filter grayscale group-hover:grayscale-0"
+                                    className="w-full h-full object-contain transition-all duration-500 filter grayscale group-hover:grayscale-0"
                                 />
                                 {/* Text Below Image */}
-                                <div className="absolute bottom-4 left-4 right-4 text-center text-black bg-white/80 p-2 rounded-md shadow-md group-hover:hidden transition-all duration-800">
+                                <div className="absolute bottom-4 left-4 right-4 text-center text-white bg-gray-400 p-2 rounded-md shadow-md group-hover:hidden transition-all duration-800">
                                     <p>{service.title}</p>
                                 </div>
                             </div>

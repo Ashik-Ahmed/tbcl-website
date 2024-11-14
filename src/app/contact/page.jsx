@@ -23,7 +23,7 @@ export default function EnhancedContactUs() {
     }
 
     return (
-        <div className="min-h-screen py-16">
+        <div className="min-h-screen">
             <div className=''>
                 {/* Hero Section */}
                 <section className="relative h-[60vh] flex justify-center items-center bg-gradient-to-r from-blue-500 to-purple-700">
@@ -40,7 +40,7 @@ export default function EnhancedContactUs() {
                     </div>
                 </section>
 
-                <div className="container max-w-7xl mx-auto mt-16 lg:mt-20">
+                <div className="container max-w-7xl mx-auto my-16 lg:mt-20">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <div className="lg:col-span-2 border">
                             <div className="p-8">
@@ -81,7 +81,7 @@ export default function EnhancedContactUs() {
                             </div>
                             <div className="bg-gray-50 px-8 py-10">
                                 <div className="h-96 rounded-2xl overflow-hidden shadow-inner">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3651.9095685543075!2d90.3914651!3d23.750604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b897f9400001%3A0x7d74993af65c7dad!2sCarbon%20Holdings%20Ltd!5e0!3m2!1sen!2sbd!4v1731144519792!5m2!1sen!2sbd" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8979324365014!2d90.39134737410039!3d23.751018888754892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8980228f911%3A0x479041331b0c122f!2sTransbangla%20Commodities%20LTD%20(TBCL)!5e0!3m2!1sen!2sbd!4v1731558484758!5m2!1sen!2sbd" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>

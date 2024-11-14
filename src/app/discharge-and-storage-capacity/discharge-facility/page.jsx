@@ -48,7 +48,7 @@ const DischargeFacility = () => {
                     </div>
                 </div>
             </section>
-            <div className="max-w-5xl mx-auto py-16 px-4">
+            <div className="max-w-6xl mx-auto py-16 px-4">
                 <div className='mb-8'>
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">
                         Discharge Facility
@@ -146,8 +146,8 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
                                         <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">5</td>
@@ -155,8 +155,8 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
                                         <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">6</td>
@@ -164,8 +164,8 @@ const DischargeFacility = () => {
                                         <td className="border border-gray-300 p-2">186.00 M</td>
                                         <td className="border border-gray-300 p-2">9.50 M</td>
                                         <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2"></td>
                                         <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">7</td>
@@ -229,12 +229,24 @@ const DischargeFacility = () => {
                     </div>
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>C. The Single Point Mooring (SPM) with Double Pipeline project in Bangladesh</h3>
-                        <p className='mt-4'>
-                            This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh&apos;s energy infrastructure.
-                        </p>
-                        <p className='mt-2'>
-                            With the installation of the SPM, BPC can now offload 120,000 tons of crude oil in 48 hours and 70,000 tons of diesel in 28 hours, boosting annual offloading capacity to around 9 million tons. The SPM supports discharge operations for Eastern Refinery Ltd. and BPC, with MT JAG APARNA being the first vessel to discharge 60,000 MT of gas oil to BPC via the SPM in 2023.
-                        </p>
+                        <div className='mt-4 md:flex md:gap-x-8'>
+                            <div className='md:w-1/2'>
+                                <p className='mt-4'>
+                                    This top-priority infrastructure project prioritizes reducing costs and time for offloading imported crude oil. Bangladesh imports around 7 million tons of oil annually, including 1.5 million tons of crude and the remainder as refined products. This project aims to ensure efficient, cost-effective, and timely offloading crude oil and refined products, reduce system losses in lighterage operations, meet rising energy demands, and enhance supply security. Storage tanks at Maheshkhali will also boost retention capacity, strengthening Bangladesh&apos;s energy infrastructure.
+                                </p>
+                                <p className='mt-2'>
+                                    With the installation of the SPM, BPC can now offload 120,000 tons of crude oil in 48 hours and 70,000 tons of diesel in 28 hours, boosting annual offloading capacity to around 9 million tons. The SPM supports discharge operations for Eastern Refinery Ltd. and BPC, with MT JAG APARNA being the first vessel to discharge 60,000 MT of gas oil to BPC via the SPM in 2023.
+                                </p>
+                            </div>
+                            <div className='md:w-1/2'>
+                                <Image
+                                    src="/spm.jpg"
+                                    alt='Single Point Mooring'
+                                    width={500}
+                                    height={500}
+                                    className='mt-4 md:mt-0 md:ml-4' />
+                            </div>
+                        </div>
                     </div>
                     <div className='mt-8'>
                         <h3 className='text-xl font-semibold'>D. Draught Chart at Chittagong Port</h3>
