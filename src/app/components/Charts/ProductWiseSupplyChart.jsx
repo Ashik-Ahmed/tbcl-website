@@ -12,7 +12,7 @@ import {
     ResponsiveContainer,
 } from 'recharts';
 
-const FuelImportTrendChart = () => {
+const ProductWiseSupplyChart = () => {
 
     const data = [
         { year: '2008', Gasoil: 240000, 'Jet A-1': 100000, SKO: 0, Mogas: 0, HSFO: 0, 'Marine Fuel': 0 },
@@ -57,4 +57,4 @@ const FuelImportTrendChart = () => {
     );
 };
 
-export default FuelImportTrendChart;
+export default ProductWiseSupplyChart;

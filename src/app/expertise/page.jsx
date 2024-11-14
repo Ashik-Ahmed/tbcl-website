@@ -2,7 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import YearlyDemandBarChart from '../components/Charts/YearlyDemandChart';
-import FuelImportTrendChart from '../components/Charts/FuelImportTrendChart';
+import ProductWiseSupplyChart from '../components/Charts/ProductWiseSupplyChart';
+import FuelImportIPPChart from '../components/Charts/FuelImportIPPChart';
 
 const Expertise = () => {
     return (
@@ -57,7 +58,7 @@ const Expertise = () => {
                                 height={500}
                                 className='mt-4 mx-auto' /> */}
 
-                            <div className='p-4 border '>
+                            <div className='md:p-4 md:border '>
                                 <YearlyDemandBarChart />
                             </div>
 
@@ -72,8 +73,8 @@ const Expertise = () => {
                                 height={500}
                                 className='mt-4 mx-auto' />
                             <p className='italic mt-2 text-sm text-center'>Fig: Supply Trends by Product Through Transbangla Commodities Ltd. [Qty. in Metric Ton]</p> */}
-                            <div className="p-4 border">
-                                <FuelImportTrendChart />
+                            <div className="md:p-4 md:border">
+                                <ProductWiseSupplyChart />
                             </div>
                         </div>
                     </div>
@@ -96,7 +97,9 @@ const Expertise = () => {
                                 height={500}
                                 className='mt-4 mx-auto' />
                             <p className='italic mt-2 text-sm text-center'>Figure: Fuel Oil Import Trend [Qty. in Metric Ton]</p> */}
-
+                            <div className='md:p-4 md:border'>
+                                <FuelImportIPPChart />
+                            </div>
                         </div>
                         <h4 className='mt-4 text-xl font-semibold'>ii) Coal Import and Our Strategic Way Forward</h4>
                         <p className='mt-2 ml-4 text-gray-700'>
