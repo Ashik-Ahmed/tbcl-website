@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import {
     BarChart,
@@ -19,11 +21,11 @@ const data = [
     { year: '2024', Gasoil: 2420000, Jet: 360000, HSFO: 250000, Mogas: 750000, 'M. Fuel': 120000 },
 ];
 
-const DemandBarChart = () => {
+const YearlyDemandBarChart = () => {
     return (
         <div style={{ width: '100%', height: 500 }}>
-            <h2 className="text-center font-bold text-lg my-4">Demand Trend of Finished Petroleum Products</h2>
-            <ResponsiveContainer>
+            <h2 className="text-center font-bold text-lg my-4">Demand Trend of Finished Petroleum Products <span className='text-xs italic'>[Qty. in Metric Ton]</span> </h2>
+            <ResponsiveContainer width="100%" height="95%">
                 <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="year" />
@@ -41,4 +43,4 @@ const DemandBarChart = () => {
     );
 };
 
-export default DemandBarChart;
+export default YearlyDemandBarChart;
