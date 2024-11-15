@@ -23,7 +23,7 @@ const ExecutiveMessage = () => {
                         <div className="relative">
                             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-xl">
                                 <img
-                                    src="/service.avif"
+                                    src="/ed-image.png"
                                     alt="Executive Director Portrait"
                                     className="w-full h-full object-cover"
                                 />
