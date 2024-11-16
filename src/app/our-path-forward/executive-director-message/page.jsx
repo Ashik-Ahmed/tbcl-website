@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ExecutiveMessage = () => {
@@ -22,9 +23,11 @@ const ExecutiveMessage = () => {
                     <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
                         <div className="relative">
                             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-xl">
-                                <img
+                                <Image
                                     src="/ed-image.png"
-                                    alt="Executive Director Portrait"
+                                    alt="Executive Director"
+                                    width={200}
+                                    height={200}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -54,13 +57,15 @@ const ExecutiveMessage = () => {
                     {/* Signature Section */}
                     <div className="max-w-3xl mx-auto mt-12">
                         <div className="flex flex-col items-end">
-                            <div className="w-48 mb-4">
-                                <img
-                                    src="/service.avif"
+                            {/* <div className="w-48 mb-4">
+                                <Image
+                                    src="/ed-image.png"
                                     alt="Signature"
+                                    width={200}
+                                    height={200}
                                     className="w-full object-contain"
                                 />
-                            </div>
+                            </div> */}
                             <div className="text-right">
                                 <div className="font-bold text-gray-900">R.M. Jahangir</div>
                                 <div className="text-sm text-gray-600">Executive Director</div>

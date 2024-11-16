@@ -166,6 +166,9 @@ const StorageCapacity = () => {
                     <p className="text-sm text-gray-600 mt-2 text-right italic">[Capacity in Metric Tons]</p>
                 </div>
             </div>
+            <div className='my-4'>
+                <p className='text-sm text-red-600 mt-2 text-center italic underline'>NB: All the above data are publicly available</p>
+            </div>
         </div>
     );
 };
