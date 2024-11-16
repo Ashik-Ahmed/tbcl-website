@@ -43,7 +43,7 @@ const ServicesGrid = () => {
         {
             id: 6,
             title: 'Fender Service',
-            image: '/expertise/fender-service.jpg',
+            image: '/expertise/fender-service.avif',
             link: '/expertise#fender-service',
             description: 'Cutting-edge technology solutions'
         }
