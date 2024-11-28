@@ -103,35 +103,35 @@ const StorageCapacity = () => {
                         <thead className='bg-gray-100'>
                             <tr>
                                 <th className="border border-gray-400 p-2 font-medium text-left">Name of Depots</th>
-                                <th className="border border-gray-400 p-2 font-medium text-right">HSD</th>
-                                <th className="border border-gray-400 p-2 font-medium text-right">SKO</th>
-                                <th className="border border-gray-400 p-2 font-medium text-right">HOBC</th>
-                                <th className="border border-gray-400 p-2 font-medium text-right">FOHS</th>
-                                <th className="border border-gray-400 p-2 font-medium text-right">Jet A-1</th>
+                                <th className="border border-gray-400 p-2 font-medium text-center">HSD</th>
+                                <th className="border border-gray-400 p-2 font-medium text-center">SKO</th>
+                                <th className="border border-gray-400 p-2 font-medium text-center">HOBC</th>
+                                <th className="border border-gray-400 p-2 font-medium text-center">FOHS</th>
+                                <th className="border border-gray-400 p-2 font-medium text-center">Jet A-1</th>
                             </tr>
                         </thead>
                         <tbody>
                             {depotWiseData.map((row, index) => (
                                 <tr key={index}>
                                     <td className="border border-gray-400 p-2">{row.depot}</td>
-                                    <td className="border border-gray-400 p-2 text-right">{row.hsd}</td>
-                                    <td className="border border-gray-400 p-2 text-right">{row.sko}</td>
-                                    <td className="border border-gray-400 p-2 text-right">{row.hobc}</td>
-                                    <td className="border border-gray-400 p-2 text-right">{row.fohs}</td>
-                                    <td className="border border-gray-400 p-2 text-right">{row.jetA1}</td>
+                                    <td className="border border-gray-400 p-2 text-center">{row.hsd}</td>
+                                    <td className="border border-gray-400 p-2 text-center">{row.sko}</td>
+                                    <td className="border border-gray-400 p-2 text-center">{row.hobc}</td>
+                                    <td className="border border-gray-400 p-2 text-center">{row.fohs}</td>
+                                    <td className="border border-gray-400 p-2 text-center">{row.jetA1}</td>
                                 </tr>
                             ))}
                             <tr className="font-bold bg-gray-100">
                                 <td className="border border-gray-400 p-2">Total</td>
-                                <td className="border border-gray-400 p-2 text-right">{totals.hsd}</td>
-                                <td className="border border-gray-400 p-2 text-right">{totals.sko}</td>
-                                <td className="border border-gray-400 p-2 text-right">{totals.hobc}</td>
-                                <td className="border border-gray-400 p-2 text-right">{totals.fohs}</td>
-                                <td className="border border-gray-400 p-2 text-right">{totals.jetA1}</td>
+                                <td className="border border-gray-400 p-2 text-center">{totals.hsd}</td>
+                                <td className="border border-gray-400 p-2 text-center">{totals.sko}</td>
+                                <td className="border border-gray-400 p-2 text-center">{totals.hobc}</td>
+                                <td className="border border-gray-400 p-2 text-center">{totals.fohs}</td>
+                                <td className="border border-gray-400 p-2 text-center">{totals.jetA1}</td>
                             </tr>
                         </tbody>
                     </table>
-                    <p className="text-sm text-gray-600 mt-2 text-right italic">[Capacity in Metric Tons]</p>
+                    <p className="text-sm text-gray-600 mt-2 text-center italic">[Capacity in Metric Tons]</p>
                 </div>
             </div>
 
@@ -163,7 +163,7 @@ const StorageCapacity = () => {
                             ))}
                         </tbody>
                     </table>
-                    <p className="text-sm text-gray-600 mt-2 text-right italic">[Capacity in Metric Tons]</p>
+                    <p className="text-sm text-gray-600 mt-2 text-center italic">[Capacity in Metric Tons]</p>
                 </div>
             </div>
             <div className='my-4'>

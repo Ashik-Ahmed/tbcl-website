@@ -72,7 +72,7 @@ export default function EnhancedContactUs() {
                                         <div>
                                             <dt className="font-medium text-gray-900">Hours</dt>
                                             <dd className="mt-1 text-gray-500">
-                                                Sunday-Thursday: 9AM - 5PM<br />
+                                                Sunday-Thursday: 9:30 AM - 5:30 PM<br />
                                                 Friday-Saturday: Closed
                                             </dd>
                                         </div>

@@ -32,7 +32,7 @@ const FuelImportIPPChart = () => {
 
     return (
         <div style={{ width: '100%', height: 500 }}>
-            <h2 className="text-center font-bold text-lg my-4">Monthly Demand Trend of Petroleum Products</h2>
+            <h2 className="text-center font-bold text-lg my-4">Supply Trend of Fuel Oil to IPP</h2>
             <ResponsiveContainer width="100%" height="95%">
                 <LineChart data={monthlyData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
                     <CartesianGrid strokeDasharray="3 3" />

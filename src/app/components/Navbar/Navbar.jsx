@@ -17,7 +17,7 @@ const Navbar = () => {
             label: 'Our Path Forward',
             dropdown: [
                 { label: 'About Us', href: '/our-path-forward/about' },
-                { label: 'Executive Director Message', href: '/our-path-forward/executive-director-message' },
+                { label: "Executive Director's Message", href: '/our-path-forward/executive-director-message' },
                 { label: 'Ambition & Aspiration', href: '/our-path-forward/ambition-and-aspiration' },
                 { label: 'Partners & Compliance', href: '/our-path-forward/partners-and-compliance' },
             ]

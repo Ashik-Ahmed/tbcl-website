@@ -95,125 +95,125 @@ const DischargeFacility = () => {
                                 <tbody>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center" rowSpan={3}>1</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={3}>TSP</td>
-                                        <td className="border border-gray-300 p-2">143.40 M</td>
-                                        <td className="border border-gray-300 p-2">8.25 M</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={3}>2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={3}></td>
-                                        <td className="border border-gray-300 p-2" rowSpan={3}>Discharge can be done on a special permission basis</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={3}>TSP</td>
+                                        <td className="border border-gray-300 p-2 text-center">143.40 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">8.25 M</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={3}>2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={3}></td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={3}>Discharge can be done on a special permission basis</td>
                                     </tr>
                                     <tr>
-                                        <td className="border border-gray-300 p-2">175.25 M</td>
-                                        <td className="border border-gray-300 p-2">7.90 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">175.25 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">7.90 M</td>
                                     </tr>
                                     <tr>
-                                        <td className="border border-gray-300 p-2">
+                                        <td className="border border-gray-300 p-2 text-center">
                                             180.00 M
                                             <br />
                                             <span className="text-xs">(Under special permission from the port authority)</span>
                                         </td>
-                                        <td className="border border-gray-300 p-2">7.90 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">7.90 M</td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">2</td>
-                                        <td className="border border-gray-300 p-2" >DOJ – 3</td>
-                                        <td className="border border-gray-300 p-2">183.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2" >2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center" >DOJ – 3</td>
+                                        <td className="border border-gray-300 p-2 text-center">183.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center" >2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center" rowSpan={2}>3</td>
                                         <td className="border border-gray-300 p-2 text-center" rowSpan={2}>DOJ – 4</td>
-                                        <td className="border border-gray-300 p-2">160.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}>2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}></td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}></td>
+                                        <td className="border border-gray-300 p-2 text-center">160.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}>2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}></td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}></td>
                                     </tr>
                                     <tr>
-                                        <td className="border border-gray-300 p-2">
+                                        <td className="border border-gray-300 p-2 text-center">
                                             184.00 M
                                             <br />
                                             <span className="text-xs">(Under special permission from the port authority by paying allowance)</span>
                                         </td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">4</td>
-                                        <td className="border border-gray-300 p-2">DOJ – 5</td>
-                                        <td className="border border-gray-300 p-2">186.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center">DOJ – 5</td>
+                                        <td className="border border-gray-300 p-2 text-center">186.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">5</td>
-                                        <td className="border border-gray-300 p-2">DOJ – 6</td>
-                                        <td className="border border-gray-300 p-2">186.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center">DOJ – 6</td>
+                                        <td className="border border-gray-300 p-2 text-center">186.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">6</td>
-                                        <td className="border border-gray-300 p-2">DOJ – 7</td>
-                                        <td className="border border-gray-300 p-2">186.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">2<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center">DOJ – 7</td>
+                                        <td className="border border-gray-300 p-2 text-center">186.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">2<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center">10 inch (Used for Gas oil & Jet A1/Mogas)</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">7</td>
-                                        <td className="border border-gray-300 p-2">DCJ – 8</td>
-                                        <td className="border border-gray-300 p-2">175.00 M</td>
-                                        <td className="border border-gray-300 p-2">8.50 M</td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center">DCJ – 8</td>
+                                        <td className="border border-gray-300 p-2 text-center">175.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">8.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">8</td>
-                                        <td className="border border-gray-300 p-2">United Jetty</td>
-                                        <td className="border border-gray-300 p-2">183.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2">4<sub>x</sub>8&quot;</td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2"></td>
+                                        <td className="border border-gray-300 p-2 text-center">United Jetty</td>
+                                        <td className="border border-gray-300 p-2 text-center">183.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">4<sub>x</sub>8&quot;</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center" rowSpan={2}>9</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}>
                                             KAFCO
                                             <br />
                                             (U)
                                         </td>
-                                        <td className="border border-gray-300 p-2">186.00 M</td>
-                                        <td className="border border-gray-300 p-2">9.50 M</td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}></td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}></td>
-                                        <td className="border border-gray-300 p-2" rowSpan={2}>Only ship-to-ship and lightering operation for tanker</td>
+                                        <td className="border border-gray-300 p-2 text-center">186.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}></td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}></td>
+                                        <td className="border border-gray-300 p-2 text-center" rowSpan={2}>Only ship-to-ship and lightering operation for tanker</td>
                                     </tr>
                                     <tr>
-                                        <td className="border border-gray-300 p-2">
+                                        <td className="border border-gray-300 p-2 text-center">
                                             190.00 M
                                             <br />
                                             <span className="text-xs">(Upon compliance with the condition of the port authority)</span>
                                         </td>
-                                        <td className="border border-gray-300 p-2">9.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">9.00 M</td>
                                     </tr>
                                     <tr>
                                         <td className="border border-gray-300 p-2 text-center">10</td>
-                                        <td className="border border-gray-300 p-2">CUFL</td>
-                                        <td className="border border-gray-300 p-2">186.00 M</td>
-                                        <td className="border border-gray-300 p-2">8.50 M</td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2"></td>
-                                        <td className="border border-gray-300 p-2">Only ship-to-ship and lightering operation for tanker</td>
+                                        <td className="border border-gray-300 p-2 text-center">CUFL</td>
+                                        <td className="border border-gray-300 p-2 text-center">186.00 M</td>
+                                        <td className="border border-gray-300 p-2 text-center">8.50 M</td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center"></td>
+                                        <td className="border border-gray-300 p-2 text-center">Only ship-to-ship and lightering operation for tanker</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -303,6 +303,9 @@ const DischargeFacility = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='my-4'>
+                <p className='text-sm text-red-600 mt-2 text-center italic underline'>NB: All the above data are publicly available</p>
             </div>
         </div>
     );
