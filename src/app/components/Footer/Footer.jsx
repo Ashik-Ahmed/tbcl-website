@@ -23,7 +23,7 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
                         <p className="text-gray-400">BTMC Bhaban (7th Floor)</p>
                         <p className="text-gray-400">7-9 Kawran Bazar, Dhaka-1207</p>
-                        <p className="text-gray-400">Phone: +880-2-8189244, +880-2-8189321, +880-2-58155623</p>
+                        <p className="text-gray-400">Phone: +880-2-55013774, +880-2-55013778</p>
                         <p className="text-gray-400">Email: info@tbcl.com.bd</p>
                     </div>
                     <div>
@@ -49,7 +49,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                    <p className='text-xs'>&copy; {new Date().getFullYear()} Transbangna Commodities Ltd. All rights reserved.</p>
+                    <p className='text-xs'>&copy; {new Date().getFullYear()} Transbangla Commodities Ltd. All rights reserved.</p>
                 </div>
 
                 <div className='w-full py-2'>

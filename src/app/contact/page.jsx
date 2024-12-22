@@ -57,7 +57,7 @@ export default function EnhancedContactUs() {
                                         <Phone className="h-8 w-8 text-blue-600 mr-4" aria-hidden="true" />
                                         <div>
                                             <dt className="font-medium text-gray-900">Phone</dt>
-                                            <dd className="mt-1 text-gray-500">+880-2-8189244, +880-2-8189321, +880-2-58155623</dd>
+                                            <dd className="mt-1 text-gray-500">+880-2-55013774, +880-2-55013778</dd>
                                         </div>
                                     </div>
                                     <div className="flex items-start">
