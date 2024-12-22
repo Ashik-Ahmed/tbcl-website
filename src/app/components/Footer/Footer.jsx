@@ -49,7 +49,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                    <p className='text-xs'>&copy; {new Date().getFullYear()} Company Name. All rights reserved.</p>
+                    <p className='text-xs'>&copy; {new Date().getFullYear()} Transbangna Commodities Ltd. All rights reserved.</p>
+                </div>
+
+                <div className='w-full py-2'>
+                    <p className='text-gray-400 text-center text-xs font-light italic'>Developed by <Link href="https://lamdatelecombd.com/" target="_blank" className='underline'>Lamda Telecom</Link></p>
                 </div>
             </div>
         </footer>
