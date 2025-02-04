@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -6,10 +7,11 @@ const Hero = () => {
         <div className="relative h-screen w-full overflow-hidden">
             {/* Background Image Container */}
             <div className="absolute inset-0">
-                <img
+                <Image
                     src="/hero-image.png"
                     alt="Hero background"
                     className="w-full h-full object-cover"
+                    layout="fill"
                 />
                 {/* Overlay for better text readability */}
                 <div className="absolute inset-0 bg-black/40" />
