@@ -5,21 +5,57 @@ import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
 import Script from 'next/script'
 
 export default function EnhancedContactUs() {
-    const [formData, setFormData] = useState({
+    const [formStatus, setFormStatus] = useState(null)
+    const [emailLoading, setEmailLoading] = useState(false)
+    const [formData, setFormData] = useState({  // Initialize state for formData
         name: '',
         email: '',
+        subject: '',
         message: ''
     })
 
-    const handleChange = (e) => {
-        const { name, value } = e.target
-        setFormData(prevState => ({ ...prevState, [name]: value }))
+    async function sendEmail(formData) {
+        try {
+            const response = await fetch('/api/send-email', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            console.log('data:', data);
+            return data;
+
+        } catch (error) {
+            console.error('Error:', error.message);
+            return { error: error.message };
+        }
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
+        setEmailLoading(true)
         e.preventDefault()
-        console.log('Form submitted:', formData)
-        setFormData({ name: '', email: '', message: '' })
+
+        const email = await sendEmail(formData)
+
+        if (email.success) {
+            setFormStatus('success')
+            setFormData({ name: '', email: '', subject: '', message: '' }) // Reset form state
+        } else {
+            setFormStatus('error')
+        }
+        setEmailLoading(false)
+    }
+
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
     }
 
     return (
@@ -33,9 +69,7 @@ export default function EnhancedContactUs() {
                         </h1>
                         <div className="w-24 h-1 bg-white rounded-full mb-8"></div>
                         <div className='max-w-5xl'>
-                            <p className='text-white'>We&apos;re here to help and answer any question you might have.
-
-                            </p>
+                            <p className='text-white'>We&apos;re here to help and answer any question you might have.</p>
                         </div>
                     </div>
                 </section>
@@ -81,7 +115,7 @@ export default function EnhancedContactUs() {
                             </div>
                             <div className="bg-gray-50 px-8 py-10">
                                 <div className="h-96 rounded-2xl overflow-hidden shadow-inner">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8979324365014!2d90.39134737410039!3d23.751018888754892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8980228f911%3A0x479041331b0c122f!2sTransbangla%20Commodities%20LTD%20(TBCL)!5e0!3m2!1sen!2sbd!4v1731558484758!5m2!1sen!2sbd" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8979324365014!2d90.39134737410039!3d23.751018888754892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8980228f911%3A0x479041331b0c122f!2sTransbangla%20Commodities%20LTD%20(TBCL)!5e0!3m2!1sen!2sbd!4v1731558484758!5m2!1sen!2sbd" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +136,7 @@ export default function EnhancedContactUs() {
                                             required
                                             value={formData.name}
                                             onChange={handleChange}
-                                            className="mt-1 py-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
+                                            className="mt-1 p-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
                                         />
                                     </div>
                                     <div>
@@ -117,7 +151,7 @@ export default function EnhancedContactUs() {
                                             required
                                             value={formData.email}
                                             onChange={handleChange}
-                                            className="mt-1 py-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
+                                            className="mt-1 p-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
                                         />
                                     </div>
                                     <div>
@@ -132,7 +166,7 @@ export default function EnhancedContactUs() {
                                             required
                                             value={formData.subject}
                                             onChange={handleChange}
-                                            className="mt-1 py-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
+                                            className="mt-1 p-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
                                         />
                                     </div>
                                     <div>
@@ -146,29 +180,19 @@ export default function EnhancedContactUs() {
                                             required
                                             value={formData.message}
                                             onChange={handleChange}
-                                            className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
+                                            className="mt-1 p-2 block w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition duration-300 ease-in-out"
                                         ></textarea>
                                     </div>
-                                    <div>
-                                        <button
-                                            type="submit"
-                                            className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                                        >
-                                            <Send className="h-5 w-5 mr-2" />
-                                            Send Message
-                                        </button>
-                                    </div>
+                                    <button type="submit" className={`w-full flex justify-center items-center py-3 px-4 bg-blue-600 text-white rounded-lg shadow-sm hover:bg-blue-700 ${emailLoading ? 'opacity-50 cursor-not-allowed' : ''}`}>
+                                        <Send className="h-5 w-5 mr-2" />
+                                        Send Message
+                                    </button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <Script
-                src={`https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places`}
-                strategy="lazyOnload"
-            />
         </div >
     )
 }
