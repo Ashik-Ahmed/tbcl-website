@@ -188,6 +188,17 @@ export default function EnhancedContactUs() {
                                         Send Message
                                     </button>
                                 </form>
+                                {formStatus === 'success' &&
+                                    (
+                                        <p className="text-blue-500 mt-4">We have received your message. We will get back to you soon!</p>
+                                    )
+                                }
+                                {
+                                    formStatus === 'error' &&
+                                    (
+                                        <p className="text-white bg-red-500 mt-4">Something went wrong. Please try again later.</p>
+                                    )
+                                }
                             </div>
                         </div>
                     </div>
